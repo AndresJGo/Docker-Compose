@@ -5,14 +5,14 @@ La API cuenta con 3 funciones REST las cuáles son:
 3) Ver corredor por ID
 
 Cuando se abre el archivo index.html se puede acceder la funcionalidad de agregar corredor.
-Esta también puede ser probada con Postman haciendo uso del método POST con la ruta: "http://localhost:3000/register". El cuerpo de la petición debe verse de la siguiente manera:
-{
-  "name" : "Andres",
-  "competitorNumber" : 23,
-  track : "Pista nevada seccion 3",
-  experience : 4,
-  institution : "IPN"
-}
+Esta también puede ser probada con Postman haciendo uso del método POST con la ruta: "http://localhost:3000/register". El cuerpo de la petición debe verse de la siguiente manera:\
+{\
+  "name" : "Andres",\
+  "competitorNumber" : 23,\
+  track : "Pista nevada seccion 3",\
+  experience : 4,\
+  institution : "IPN"\
+}\
 Nota: La ID de los corredores se va incrementado con cada registro, es decir el primer corredor tendra la ID 1, el segundo tendrá la ID 2, etc.
 Los corredores se guardan en un arreglo en el BACKEND.
 
